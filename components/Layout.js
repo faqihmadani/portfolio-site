@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import dynamic from "next/dynamic"
+
+const Navbar = dynamic(() => import("../components/Navbar"), { ssr: false })
 
 const Layout = ({ children }) => {
     const [isDarkMode, setIsDarkMode] = useState(true)
