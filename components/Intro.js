@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section id="home" className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300 mt-20">
-            <div className="pt-20 flex justify-between items-center h-full">
+        <section id="home" className="flex justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
+            <div className=" flex justify-between items-center h-full w-full">
                 <div>
                     <h3 className="text-xl mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
                     <div className="flex flex-col text-4xl font-extrabold space-y-2 mb-7">
@@ -20,13 +20,13 @@ const Intro = () => {
                             Contact Me
                         </button>
                         <a href="">
-                            <FaGithub className="w-5 h-5 dark:text-slate-500 text-slate-600 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
+                            <FaGithub className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
                         <a href="">
-                            <FaLinkedin className="w-5 h-5 dark:text-slate-500 text-slate-600 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
+                            <FaLinkedin className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
                         <a href="">
-                            <FaTwitter className="w-5 h-5 dark:text-slate-500 text-slate-600 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
+                            <FaTwitter className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
                     </div>
                 </div>
