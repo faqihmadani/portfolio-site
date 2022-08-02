@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
     return (
         <div className={`${isDarkMode ? 'dark' : ''} min-h-screen flex flex-col`}>
             <Navbar handleDarkMode={handleDarkMode} />
-            <main className="flex-1 dark:bg-slate-900 bg-slate-300 transition-color duration-300">
+            <main className="flex-1 dark:bg-slate-900 bg-slate-100 transition-color duration-300">
                 {children}
             </main>
             <Footer />

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section id="home" className="flex justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
+        <section id="home" className="flex max-w-screen-lg justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
             <div className=" flex justify-between items-center h-full w-full">
                 <div>
                     <h3 className="text-xl mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
@@ -32,8 +32,8 @@ const Intro = () => {
                 </div>
                 <div className="flex w-6/12 justify-center">
                     <div className="relative flex items-center justify-center">
-                        <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div>
-                        <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div>
+                        {/* <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div> */}
+                        {/* <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div> */}
                         <img src="/profil-blue.png" className=" z-30" width={250} height={250} />
                     </div>
                 </div>
