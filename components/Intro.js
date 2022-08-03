@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section id="home" className="flex max-w-screen-lg justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
-            <div className=" flex justify-between items-center h-full w-full">
+        <section id="home" className="flex max-w-screen-lg justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen lg:min-h-[564px] mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
+            <div className=" flex flex-col-reverse sm:flex-row justify-between items-center h-full w-full">
                 <div>
-                    <h3 className="text-xl mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
-                    <div className="flex flex-col text-4xl font-extrabold space-y-2 mb-7">
+                    <h3 className="md:text-xl text-lg  mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
+                    <div className="flex flex-col text-3xl md:text-4xl font-extrabold space-y-2 mb-7">
                         <h1>a <span className=" text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">front-end developer</span></h1>
                         <h1>who loves to build</h1>
                         <h1 className="text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">beautiful website</h1>
@@ -30,11 +30,11 @@ const Intro = () => {
                         </a>
                     </div>
                 </div>
-                <div className="flex w-6/12 justify-center">
+                <div className="flex w-6/12 justify-center pt-20 sm:pt-0 mb-10 sm:mb-0">
                     <div className="relative flex items-center justify-center">
                         {/* <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div> */}
                         {/* <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div> */}
-                        <img src="/profil-blue.png" className=" z-30" width={250} height={250} />
+                        <img src="/profil-blue.png" className=" z-30 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]" />
                     </div>
                 </div>
             </div>
