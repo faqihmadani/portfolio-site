@@ -1,11 +1,10 @@
-import ButtonPrimary from "./ButtonPrimary";
 import { IoMdMail } from "react-icons/io"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section id="home" className="flex max-w-screen-lg justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen lg:min-h-[564px] mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
+        <section id="home" className="flex max-w-screen-lg justify-between items-center w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 min-h-screen 2xl:min-h-[660px] mx-auto font-inter text-slate-900 dark:text-slate-100 transition-colors duration-300">
             <div className=" flex flex-col-reverse sm:flex-row justify-between items-center h-full w-full">
                 <div>
                     <h3 className="md:text-xl text-lg  mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
@@ -34,7 +33,7 @@ const Intro = () => {
                     <div className="relative flex items-center justify-center">
                         {/* <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div> */}
                         {/* <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div> */}
-                        <img src="/profil-blue.png" className=" z-30 w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]" />
+                        <img src="/profil-blue.png" className=" z-30 w-[140px]  sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]" />
                     </div>
                 </div>
             </div>
