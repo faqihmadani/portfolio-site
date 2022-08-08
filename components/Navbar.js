@@ -25,7 +25,7 @@ const Navbar = ({ handleDarkMode }) => {
         <header className='fixed w-full z-50'>
             <div className="w-full dark:bg-slate-900 bg-slate-100 py-4 font-inter transition-colors duration-300 z-30 ">
                 <div className="w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 max-w-screen-lg mx-auto text-slate-900 dark:text-slate-100 flex items-center justify-between">
-                    {isOpen ? <FaTimes className="text-blue-500 sm:hidden text-xl " onClick={handleIsOpen} /> : <FaBars className="text-blue-500 sm:hidden text-xl " onClick={handleIsOpen} />}
+                    {isOpen ? <FaTimes className="text-blue-500 sm:hidden text-xl hover:cursor-pointer" onClick={handleIsOpen} /> : <FaBars className="text-blue-500 sm:hidden text-xl hover:cursor-pointer" onClick={handleIsOpen} />}
                     <nav className="sm:flex hidden items-center space-x-5">
                         <a className="flex items-center mr-10" href="#home">
                             <div className='dark:hidden flex items-center'>
