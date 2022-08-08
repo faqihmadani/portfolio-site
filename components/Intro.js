@@ -18,13 +18,13 @@ const Intro = () => {
                             <IoMdMail className="mr-2" />
                             Contact Me
                         </button>
-                        <a href="">
+                        <a href="https://github.com/faqihmadani" target="_blank" rel="noreferrer">
                             <FaGithub className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/faqihmadani/" target="_blank" rel="noreferrer">
                             <FaLinkedin className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
-                        <a href="">
+                        <a href="https://twitter.com/madaniui" target="_blank" rel="noreferrer">
                             <FaTwitter className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
                     </div>
