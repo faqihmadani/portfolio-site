@@ -1,7 +1,7 @@
 export const Data = [
     {
         img: "/news.jpg",
-        title: "News Today",
+        title: "Today News",
         desc: "An app that can show trending news, search for news according to keywords, and display news by category.",
         stacks: ["NextJS", "Tailwind", "News API"],
         demo: "https://today-news-us.netlify.app",

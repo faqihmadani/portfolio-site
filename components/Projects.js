@@ -1,5 +1,6 @@
 import { Data } from "./DataProjects";
 import ProjectCard from "./ProjectCard";
+import { FaGithub } from "react-icons/fa"
 
 const Projects = () => {
     return (
@@ -10,6 +11,12 @@ const Projects = () => {
                     {Data.map(((aData, index) => (
                         <ProjectCard data={aData} key={index} />
                     )))}
+                </div>
+                <div className="flex justify-center mt-10">
+                    <a className="flex items-center py-2 px-5 border-slate-500 text-slate-700 dark:border-slate-400 dark:text-slate-400 border-[2px] rounded-full" href="https://github.com/faqihmadani" target="_blank" rel="noreferrer">
+                        See Other Projects on My Github
+                        <FaGithub className="ml-2" />
+                    </a>
                 </div>
             </div>
         </section>
