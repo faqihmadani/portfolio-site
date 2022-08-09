@@ -62,9 +62,9 @@ const Navbar = ({ handleDarkMode }) => {
                     </div>
                 </a> */}
                     {/* <a className="py-1 px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-600 hover:text-slate-900  dark:border-slate-900 hover:bg-blue-200 dark:hover:bg-slate-700 transition-all duration-300" href="#home">Home</a> */}
-                    <a className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#projects">Projects</a>
-                    <a className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#about">About</a>
-                    <a className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#contact">Contact</a>
+                    <a onClick={() => setIsOpen(!isOpen)} className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#projects">Projects</a>
+                    <a onClick={() => setIsOpen(!isOpen)} className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#about">About</a>
+                    <a onClick={() => setIsOpen(!isOpen)} className="py-2 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500   dark:border-slate-900 transition-all duration-300" href="#contact">Contact</a>
                 </motion.nav>}
             </AnimatePresence>
         </header>

@@ -4,7 +4,7 @@ import { TbWorld } from "react-icons/tb"
 
 const ProjectCard = ({ data }) => {
     return (
-        <div className="rounded-xl bg-slate-50 dark:bg-slate-700 flex flex-col shadow-lg hover:shadow-xl min-h-[500px] border border-gray-300 dark:border-gray-500 hover:scale-105 transition-transform dark:hover:shadow-gray-300/10  ">
+        <div className="rounded-xl bg-slate-50 dark:bg-slate-700 flex flex-col shadow-lg hover:shadow-xl min-h-[500px] border border-gray-300 dark:border-gray-500 hover:scale-105 transition-transform  dark:hover:shadow-gray-300/10  ">
             <Image className=" rounded-t-xl" src={data.img} height={"60%"} width={"100%"} layout="responsive" objectFit="cover" quality={100} alt="project image" />
             <div className="p-6 flex flex-col justify-between">
                 <div>
