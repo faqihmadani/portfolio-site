@@ -25,7 +25,7 @@ const ContactMe = () => {
 
                     </div>
                     <div className="w-2/3">
-                        <form name="contact" action="/success" method="POST" data-netlify="true" className="mb-6 space-y-5" data-netlify-honeypot="bot-field">
+                        <form name="contact" method="POST" data-netlify="true" className="mb-6 space-y-5" data-netlify-honeypot="bot-field">
                             <input type="hidden" name="form-name" value="contact" />
                             <input name="bot-field" className="hidden" />
                             {/* <label for="name" class="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">Full Name : </label> */}
