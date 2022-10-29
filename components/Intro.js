@@ -14,10 +14,10 @@ const Intro = () => {
                         <h1 className="text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">beautiful website</h1>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <button className="flex items-center justify-center px-6 py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
+                        <a href="mailto:faqihmadani123@gmail.com" className="flex items-center justify-center px-6 py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
                             <IoMdMail className="mr-2" />
                             Contact Me
-                        </button>
+                        </a>
                         <a href="https://github.com/faqihmadani" target="_blank" rel="noreferrer">
                             <FaGithub className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
