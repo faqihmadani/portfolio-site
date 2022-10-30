@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import AboutMe from '../components/AboutMe'
+// import BackToTop from '../components/BackToTop'
 import ContactMe from '../components/ContactMe'
 import Intro from '../components/Intro'
 import Projects from '../components/Projects'
+import dynamic from "next/dynamic"
+
+const BackToTop = dynamic(() => import("../components/BackToTop"), { ssr: false })
 
 export default function Home() {
   return (
@@ -18,6 +22,7 @@ export default function Home() {
       <Projects />
       <AboutMe />
       <ContactMe />
+      <BackToTop />
     </div>
   )
 }

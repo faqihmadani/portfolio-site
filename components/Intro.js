@@ -1,5 +1,5 @@
 import { IoMdMail } from "react-icons/io"
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTelegramPlane, FaTwitter } from "react-icons/fa"
 import Image from 'next/image'
 
 const Intro = () => {
@@ -26,6 +26,9 @@ const Intro = () => {
                         </a>
                         <a href="https://twitter.com/madaniui" target="_blank" rel="noreferrer">
                             <FaTwitter className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
+                        </a>
+                        <a href="https://t.me/madani_22" target="_blank" rel="noreferrer">
+                            <FaTelegramPlane className="w-5 h-5 dark:text-slate-500 text-slate-500 hover:text-slate-700  dark:hover:text-slate-600 transition-colors duration-300" />
                         </a>
                     </div>
                 </div>
