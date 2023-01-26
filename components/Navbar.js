@@ -40,7 +40,7 @@ const Navbar = ({ handleDarkMode }) => {
                         <a className="py-1 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500 hover:text-slate-900  dark:border-slate-900 hover:bg-blue-200 dark:hover:bg-slate-700 transition-all duration-300" href="#about">About</a>
                         <a className="py-1 font-medium px-4 rounded-lg dark:text-slate-400 dark:hover:text-slate-100 text-slate-500 hover:text-slate-900  dark:border-slate-900 hover:bg-blue-200 dark:hover:bg-slate-700 transition-all duration-300" href="#contact">Contact</a>
                     </nav>
-                    <button onClick={handleDarkMode} className="dark:bg-slate-700 bg-blue-300 p-2 rounded dark:hover:bg-slate-800 hover:bg-blue-200 transition-colors duration-300">
+                    <button aria-label="Dark Mode Switch" onClick={handleDarkMode} className="dark:bg-slate-700 bg-blue-300 p-2 rounded dark:hover:bg-slate-800 hover:bg-blue-200 transition-colors duration-300">
                         <FaMoon className=" text-blue-700 dark:hidden block" />
                         <FaSun className=" text-slate-100 hidden dark:block " />
                     </button>
