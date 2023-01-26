@@ -34,9 +34,15 @@ const Intro = () => {
                 </div>
                 <div className="flex w-6/12 justify-center pt-20 sm:pt-0 mb-10 sm:mb-0">
                     <div className="relative flex items-center justify-center">
-                        {/* <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div> */}
-                        {/* <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div> */}
-                        <img src="/profil-blue.png" alt="hero-image" className=" z-30 w-[140px]  sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]" />
+                        <div className="relative  z-30 w-[140px] h-[140px]  sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]">
+
+                            {/* <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-blue-700 to-blue-400 absolute "></div> */}
+                            {/* <div className="w-[280px] h-[280px] rounded-full transition-colors duration-300 dark:bg-slate-900 bg-slate-300 absolute "></div> */}
+                            {/* <img src="/profil-blue.png" alt="hero-image" className=" z-30 w-[140px]  sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px]" /> */}
+                            <Image src="/profil-blue.png" alt="hero-image" layout="fill"
+                                objectFit="cover" loading="lazy" />
+                        </div>
+
                     </div>
                 </div>
             </div>
