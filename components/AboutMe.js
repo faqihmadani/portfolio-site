@@ -37,7 +37,7 @@ const AboutMe = () => {
                     ))}
                 </div>
                 <div className="mt-8 flex">
-                    <a target="_blank" rel="noreferrer" className="px-6 flex items-center justify-center hover:cursor-pointer py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
+                    <a target="_blank" href='https://drive.google.com/file/d/1hfzoggFeiVSWG0YEhaVp6ZVjTybwyCIO/view?usp=sharing' rel="noreferrer" className="px-6 flex items-center justify-center hover:cursor-pointer py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
                         <MdFileDownload className='inline mr-2' />
                         Download CV
                     </a>
