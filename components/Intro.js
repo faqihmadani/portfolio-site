@@ -9,7 +9,7 @@ const Intro = () => {
                 <div>
                     <h3 className="md:text-xl text-lg  mb-3 dark:text-slate-300 text-slate-700">Hello 🖐 I&lsquo;m Faqih Madani</h3>
                     <div className="flex flex-col text-3xl md:text-4xl font-extrabold space-y-2 mb-7">
-                        <h1>a <span className=" text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">front-end developer</span></h1>
+                        <h1>a <span className=" text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">web developer</span></h1>
                         <h1>who loves to build</h1>
                         <h1 className="text-transparent bg-gradient-to-tr dark:from-blue-400 from-blue-700 to-blue-400 dark:to-blue-300 bg-clip-text">beautiful website</h1>
                     </div>
