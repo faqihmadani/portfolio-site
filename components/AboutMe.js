@@ -28,7 +28,7 @@ const AboutMe = () => {
                     </div>
 
                 </div>
-                <h2 className="font-semibold text-xl mb-3 mt-5">Front-End Skills :</h2>
+                <h2 className="font-semibold text-xl mb-3 mt-5">Web Development Skills :</h2>
                 <div className="grid grid-cols-3 lg:grid-cols-9  gap-2 ">
                     {skills.map((skill, index) => (
                         <div key={index} className="px-2   py-1 flex items-center justify-center rounded-lg border-[2px] bg-slate-50 dark:bg-slate-700 border-gray-300 dark:border-gray-500 text-slate-900 text-sm dark:text-slate-100  ">
