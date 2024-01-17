@@ -2,7 +2,7 @@ import { MdFileDownload } from 'react-icons/md'
 
 
 const AboutMe = () => {
-    const skills = ['NextJs', 'ReactJS', 'SvelteJS', 'Tailwind', 'Laravel', 'HTML', 'CSS', 'Javascript', 'PHP']
+    const skills = ['NextJs', 'ReactJS', 'ExpressJS', 'Tailwind CSS', 'Laravel', 'HTML', 'CSS', 'Javascript', 'PHP']
 
 
     return (
@@ -14,11 +14,11 @@ const AboutMe = () => {
                         <p>
                             Hi! I am Faqih Madani an Informatics student at Telkom University, Bandung. I am a highly skilled web developer with experience in building modern and responsive web applications using React JS.
                             Proficient in the latest front-end technologies and methodologies. Currently learning Laravel to expand my skillset
-                            to the back-end and build full-stack web applications
-                        </p>
+                            to the back-end and build full-stack web applications. 
+                            In my free time, I also like to watch anime and playing table tennis with my friends.
+                        {/* </p>
 
-                        <p className='mt-2 mx-auto'>
-                            In my free time, I also like to play futsal and table tennis with my friends.
+                        <p className='mt-2 mx-auto'> */}
                         </p>
                     </div>
 

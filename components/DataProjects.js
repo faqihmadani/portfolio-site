@@ -1,5 +1,13 @@
 export const Data = [
     {
+        img: "/esports-news.png",
+        title: "E-Sports News App",
+        desc: "A blog to show a recent news about E-Sports.",
+        stacks: ["ReactJS", "Tailwind CSS", "ExpressJS", "MySQL"],
+        demo: "",
+        github: "https://github.com/faqihmadani/esports-news",
+    },
+    {
         img: "/news.jpg",
         title: "Today News",
         desc: "An app that can show trending news, search for news according to keywords, and display news by category.",
@@ -22,13 +30,5 @@ export const Data = [
         stacks: ["SvelteKit", "Tailwind", "Github API"],
         demo: "https://devfinder-alpha.vercel.app",
         github: "https://github.com/faqihmadani/devfinder",
-    },
-    {
-        img: "/prayer.jpg",
-        title: "Prayer Times App",
-        desc: "An application that can display prayer times according to the selected area and date.",
-        stacks: ["SvelteJS", "Windi CSS", "MyQuran API"],
-        demo: "https://jadwal-sholat-mdn.vercel.app",
-        github: "https://github.com/faqihmadani/jadwal-sholat-app",
     },
 ]
