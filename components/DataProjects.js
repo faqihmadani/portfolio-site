@@ -8,7 +8,7 @@ export const Data = [
         github: "https://github.com/faqihmadani/esports-news",
     },
     {
-        img: "/kanban.png",
+        img: "/kanban-web.png",
         title: "Kanban Board App",
         desc: "An app to manage your tasks",
         stacks: ["ReactJS", "Tailwind CSS", "Laravel", "MySQL"],
