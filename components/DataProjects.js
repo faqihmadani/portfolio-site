@@ -10,7 +10,7 @@ export const Data = [
     {
         img: "/kanban-web.png",
         title: "Kanban Board App",
-        desc: "An app to manage your tasks",
+        desc: "An app to manage your tasks.",
         stacks: ["ReactJS", "Tailwind CSS", "Laravel", "MySQL"],
         demo: "",
         github: "https://github.com/faqihmadani/kanban-board",
