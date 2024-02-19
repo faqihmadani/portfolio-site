@@ -31,7 +31,7 @@ const ProjectCard = ({ data }) => {
                             </a>
                         </> :
 
-                        <a href={data.demo} target="_blank" rel="noreferrer" className="flex items-center justify-center px-6 py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
+                        <a href={data.github} target="_blank" rel="noreferrer" className="flex items-center justify-center px-6 py-2 font-inter text-sm text-blue-100 transition-colors duration-300 bg-blue-500 rounded-full shadow-md hover:bg-blue-600 dark:shadow-blue-400/20 shadow-blue-800/30">
                             <FaGithub className="mr-2" />
                             Visit Github
                         </a>
