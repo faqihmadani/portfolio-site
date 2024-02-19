@@ -16,6 +16,14 @@ export const Data = [
         github: "https://github.com/faqihmadani/kanban-board",
     },
     {
+        img: "/tmd.png",
+        title: "Track My Diet",
+        desc: "A web app that can track your diet for your better health.",
+        stacks: ["Laravel", "Tailwind CSS", "MySQL"],
+        demo: "",
+        github: "https://github.com/faqihmadani/track-my-diet",
+    },
+    {
         img: "/today-news-2.png",
         title: "Today News",
         desc: "An app that can show trending news, search for news according to keywords, and display news by category.",
@@ -23,14 +31,14 @@ export const Data = [
         demo: "https://today-news-us.netlify.app",
         github: "https://github.com/faqihmadani/news-app",
     },
-    {
-        img: "/trivia.png",
-        title: "Trivia Games App",
-        desc: "An app that presents quizzes with various categories of questions and levels of difficulty.",
-        stacks: ["SvelteJS", "Tailwind", "Open Trivia DB API"],
-        demo: "https://trivia-games-lovat.vercel.app",
-        github: "https://github.com/faqihmadani/trivia-games",
-    },
+    // {
+    //     img: "/trivia.png",
+    //     title: "Trivia Games App",
+    //     desc: "An app that presents quizzes with various categories of questions and levels of difficulty.",
+    //     stacks: ["SvelteJS", "Tailwind", "Open Trivia DB API"],
+    //     demo: "https://trivia-games-lovat.vercel.app",
+    //     github: "https://github.com/faqihmadani/trivia-games",
+    // },
     // {
     //     img: "/finder.png",
     //     title: "Devfinder",
